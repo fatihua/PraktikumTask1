@@ -19,8 +19,8 @@ const Dashboard = () => {
       }
     };
 
-    fetchData();  // API'den veri çekme işlemini başlatıyoruz
-  }, []); // Bu useEffect sadece component mount olduğunda çalışacak
+    fetchData(); 
+  }, []); 
 
   if (loading) {
     return <div>Loading...</div>;

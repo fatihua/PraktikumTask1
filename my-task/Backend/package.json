@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "@loopback/core": "^6.1.10",
+    "loopback-connector-mongodb": "^6.3.1"
+  }
+}
